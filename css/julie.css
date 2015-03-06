@@ -1,0 +1,132 @@
+html,body{
+margin:0;
+padding:0;
+}
+
+
+head{
+background-color : #fcc188
+}
+
+h1{
+font-size: 36px;
+font-family: Myriad Pro;
+float: right;
+margin-right:30px;
+
+}
+
+h2{
+font-size: 14px;
+font-family: Myriad Pro;
+float: right;
+margin-top:75px;
+margin-right: -217px;
+}
+
+#bloc1 {
+        width: 100%;
+		height: 100px;
+    background: #fcc188;
+}
+#bloc2 {
+    float: left;
+    width: 70%;
+	height:800px;
+    background: #939598;
+	 list-style-type: none;
+margin-top : -5px;
+	 
+}
+#bloc3{
+    margin-left: 70%;
+   	margin-top : -17px;
+  background: #2A1822;
+  height:800px;
+width:30%;
+     
+}
+p{
+    font-size: 17px;
+	font-family: Myriad Pro;
+color:#FCC188;
+
+	}
+
+a:link 
+{ 
+ text-decoration:none; 
+  font-size:25px;
+color:#2A1822;
+  
+}
+
+ul {
+  padding:0;
+   text-align: left;
+  font-size:10px;
+  font-family: Myriad Pro;
+   
+}
+
+li li {
+   max-height:0;
+   overflow: hidden;
+   background: #745466;
+   box-shadow: none;
+   border:none;
+   margin:0
+   float:left;
+    
+   
+   
+    
+}
+
+ li:hover {
+   background: #89285F
+   
+ 
+}
+
+li li:hover {
+   background: #FCC188;
+}
+
+li:hover li {
+  max-height: 5em;
+}
+
+#progress{
+width: 80%;
+margin: auto;
+}
+progress {
+width:42%;
+height:25px;
+margin-bottom:-5px;
+margin-left:24px;
+
+}
+
+#logo {
+width:10%;
+background-repeat:no-repeat;
+position: absolute; z-index: 4;
+margin-top: 60px;
+margin-left: 10px;
+}
+#social{
+width: 80%;
+margin: auto;
+}
+#social img {
+margin-left:9px;
+margin-top:24px;
+}
+
+#social p {
+float:left;
+margin-top: 25px;
+margin-right: 18px;
+}
